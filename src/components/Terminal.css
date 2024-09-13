@@ -1,0 +1,346 @@
+:root {
+    --gray: #454645;
+    --background: #000000dc;
+    --header: #4a4a4a;
+    --text: #F5F3F1;
+    --title: #54f8f0;
+    --title2: #df3dd7;
+    --command: #68ff99;
+    --command2: #17ca50;
+    --error: #e05151;
+  }
+  
+  /* @font-face {
+    font-family: 'Hack';
+    src: url('/public/font/HackNerdFont-Bold.ttf') format('truetype');
+  } */
+  
+  .space-skill {
+    padding-bottom: 0.5rem;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    background-color: var(--gray);
+    color: var(--text);
+    font-family: 'hack', monospace;
+    font-size: 12px;
+    font-weight:lighter;
+    height: 100vh;
+    width: 100%;
+    --s: 200px;
+    --c1: #f2f2f2;
+    --c2: #cdcbcc;
+    --c3: #999999;
+  
+    --_g: 0 120deg, #0000 0;
+    background: conic-gradient(from 0deg at calc(500% / 6) calc(100% / 3),
+        var(--c3) var(--_g)),
+      conic-gradient(from -120deg at calc(100% / 6) calc(100% / 3),
+        var(--c2) var(--_g)),
+      conic-gradient(from 120deg at calc(100% / 3) calc(500% / 6),
+        var(--c1) var(--_g)),
+      conic-gradient(from 120deg at calc(200% / 3) calc(500% / 6),
+        var(--c1) var(--_g)),
+      conic-gradient(from -180deg at calc(100% / 3) 50%,
+        var(--c2) 60deg,
+        var(--c1) var(--_g)),
+      conic-gradient(from 60deg at calc(200% / 3) 50%,
+        var(--c1) 60deg,
+        var(--c3) var(--_g)),
+      conic-gradient(from -60deg at 50% calc(100% / 3),
+        var(--c1) 120deg,
+        var(--c2) 0 240deg,
+        var(--c3) 0);
+    background-size: calc(var(--s) * 1.732) var(--s);
+    animation: moverFondo 20s linear infinite;
+  }
+  
+  @keyframes moverFondo {
+    0% {
+      background-position: 0 0;
+    }
+  
+    100% {
+      background-position: 50% 50%;
+    }
+  }
+  
+  
+  
+  main {
+    height: 40rem;
+    width: 60rem;
+  }
+  
+  .space-right {
+  padding-right: 0.5rem;
+  }
+  
+  
+  .terminal {
+    background-color: var(--background);
+    color: var(--text);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: scroll;
+    height: 100%;
+  }
+  
+  .terminal::-webkit-scrollbar-track {
+    background-color: #2e2e2e;
+  }
+  
+  .terminal::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 6px;
+  }
+  
+  .terminal::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+  }
+  
+  .terminal::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  
+  
+  .test {
+    padding-top: 2px;
+  }
+  
+  
+  .header {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--header);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .header svg {
+    margin-right: 10px;
+  }
+  
+  .header span {
+    font-size: 16px;
+  }
+  
+  .prompt {
+    padding-bottom: 0.5rem;
+  }
+  
+  .space-bottom {
+    padding-bottom: 1rem;
+  }
+  .space-job {
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+  }
+  
+  
+  input {
+    background-color: transparent;
+    color: var(--text);
+    font-size: 14px;
+    font-family: 'hack', monospace;
+    border: none;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  /* .test {
+    background-color: red;
+  } */
+  
+  .sectionTitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .title {
+    color: var(--title);
+    font-weight: 600;
+    padding-right: 0.5rem;
+  }
+  
+  .border {
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    border: 1px solid white;
+    font-size: 15px;
+  }
+  
+  .title-console {
+    font-weight: 10;
+    font-family: 'hack', monospace;
+  }
+  
+  .color1 {
+    color: var(--command2);
+  }
+  
+  .color2 {
+    color: var(--title2);
+    padding-left: 0.5rem;
+  
+  }
+  .color3 {
+    color: rgb(185, 185, 33);
+    padding-left: 0.5rem;
+  
+  }
+  .color4 {
+    color: rgb(49, 226, 208);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .error {
+    color: var(--error);
+    font-weight: 600;
+    font-family: 'hack', monospace;
+  }
+  
+  .row-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .content-help {
+    margin-bottom: 0rem;
+  }
+  
+  .command {
+    color: var(--command);
+    font-family: 'hack', monospace;
+    font-weight: 300;
+    width: 40%;
+  }
+  
+  .indent {
+    width: 100%;
+    margin-left: 5px;
+    font-family: 'hack', monospace;
+  }
+  
+  .space-stud {
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+  
+  .indentB {
+    margin-left: 5px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: 'hack', monospace;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media (max-width: 750px) {
+    main {
+      width: 100%;
+    }
+  }
+  
+  .progress-container {
+    padding-top: 1rem;
+  }
+  
+  .flex-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .progress {
+    width: 100%;
+    max-width:42%;
+    height: 20px;
+    /* border: 1px solid #cccccca1; */
+    /* background-color: #eee; */
+    /* position: relative; */
+    overflow: hidden;
+    
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    /* background: repeating-linear-gradient(
+        to right,
+        #4caf50,
+        rgb(255, 255, 255) 10px,
+        #ffffff00 10px,
+        #eeeeee00 20px
+    );
+    animation: progress 0.5 linear infinite; */
+  }
+  
+  /* @keyframes progress {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+  } */
+  
+  .progress-message {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.842);
+  }
+  
+  .plus {
+    background-color: rgb(255, 255, 1);
+    color: rgb(207, 28, 28);
+    font-weight: 900;
+  }
+  .space-social {
+    padding-bottom: 0.3rem;
+  }
+  .up{
+    font-weight:bolder ;
+    background-color: white;
+  }
+  
+  .front{
+    background-color: rgb(107, 107, 167);
+    color: white;
+  }
+  .back{
+    background-color: #3b5543;
+    color:white;
+  }
+  .check{
+    font-size: 14px;
+  }
+  
+  .order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+  }
