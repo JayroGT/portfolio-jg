@@ -159,7 +159,7 @@ function Terminal() {
 
   function downloadCv(): void {
     const enlace = document.createElement('a');
-    enlace.href = '../../public/Jayro_Guerrero_CV.pdf';
+    enlace.href = '/Jayro_Guerrero_CV.pdf';
     enlace.download = 'Jayro_Guerrero_cv.pdf';
     document.body.appendChild(enlace);
     enlace.click();
