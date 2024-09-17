@@ -405,8 +405,8 @@ function Terminal() {
       <div className="hidden" id="social">
         <div className="sectionTitle">Social Media: </div>
         <div className='order'>
-        <div>
-          <pre>{`
+          <div>
+            <pre>{`
       _
      ( )
       H
@@ -429,16 +429,16 @@ function Terminal() {
 
           </div>
           <div>
-          <div className="indent space-social">
-            <span className="title">Github</span> - <span className="command up"> <a href="https://github.com/jayrogt" target="_blank" >https://github.com/jayrogt</a></span>
+            <div className="indent space-social">
+              <span className="title">Github</span> - <span className="command up"> <a href="https://github.com/jayrogt" target="_blank" >https://github.com/jayrogt</a></span>
+            </div>
+            <div className="indent space-social">
+              <span className="title">Gmail</span> - <span className="command">jayro.esp.sg@gmail.com</span>
+            </div>
+            <div className="indent space-social">
+              <span className="title">Linkedin</span> - <span className="command up"> <a href="https://www.linkedin.com/in/jayrogt/" target="_blank">https://www.linkedin.com/in/jayrogt/</a></span>
+            </div>
           </div>
-          <div className="indent space-social">
-            <span className="title">Gmail</span> - <span className="command">jayro.esp.sg@gmail.com</span>
-          </div>
-          <div className="indent space-social">
-            <span className="title">Linkedin</span> - <span className="command up"> <a href="https://www.linkedin.com/in/jayrogt/" target="_blank">https://www.linkedin.com/in/jayrogt/</a></span>
-          </div>
-        </div>
         </div>
       </div>
 
@@ -464,9 +464,7 @@ function Terminal() {
         <div className="indentB">
           <span className="title border">Business administration</span> <span className="command">CERTUS</span>
           <div className="indent space-stud">
-            Completed 800 hours of theoretical and practical coursework in Full Stack Development, covering front-end and
-            back-end technologies including HTML, CSS, JavaScript, React, Node.js, and databases. Gained hands-on experience
-            in building and deploying web applications.
+            Studies in Administration covering resource management, strategic planning, recruitment analysis, and leadership development. The program includes training in decision-making, process optimization, and techniques to enhance efficiency and productivity in organizational environments.
           </div>
         </div>
       </div>
