@@ -289,8 +289,8 @@ function Terminal() {
       <div className="hidden space-bottom" id="projects">
         <div className="sectionTitle">Projects: </div>
         <div className="indent space-stud">
-          <span className="title">Attendance control for JAJ 2024</span> - <a href="https://github.com/Johguxo/assistance-control" target="_blank"><span
-            className="command">Link a github</span> </a>
+          <span className="title">Attendance control for JAJ 2024</span> -
+          <span className="command"> Private due to sensitive content</span>
         </div>
         <div className="indent space-stud">
           <span className="title">TodoApp</span> - <a href="https://github.com/JayroGT/apptodo" target="_blank"><span
