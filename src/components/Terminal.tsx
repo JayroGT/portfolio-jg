@@ -293,6 +293,10 @@ function Terminal() {
             className="command">Link a github</span> </a>
         </div>
         <div className="indent space-stud">
+          <span className="title">TodoApp</span> - <a href="https://github.com/JayroGT/apptodo" target="_blank"><span
+            className="command">Link a github</span> </a>
+        </div>
+        <div className="indent space-stud">
           <span className="title">CountriesApi </span> - <a href="https://github.com/JayroGT/CountriesAPIJG" target="_blank">
             <span className="command">Link a github</span> </a>
         </div>
