@@ -312,6 +312,7 @@ function Terminal() {
               <span className="title border">Javascript</span>
               <span className="title border">Typescript</span>
               <span className="title border">Python</span>
+              <span className="title border">Ruby</span>
               <span className="title border">HTML</span>
               <span className="title border">CSS</span>
             </div>
@@ -339,6 +340,7 @@ function Terminal() {
               <span className="title border">NodeJs</span>
               <span className="title border">ExpressJs</span>
               <span className="title border">Django</span>
+              <span className="title border">Ruby on Rails</span>
             </div>
           </div>
           <div className="space-skill">
@@ -386,7 +388,13 @@ function Terminal() {
       <div className="hidden" id="experience">
         <div className="sectionTitle">Experience: </div>
         <div className="indent space-job">
-          <span className="title">FullStack DEV - freelance - Kiwilex</span> - <span className="command">Feb 2024 - Today</span>
+          <span className="title">FullStack DEV - full time - Kontroller </span> - <span className="command">Oct 2024 - Today</span>
+          <div className="indent">
+            Development and maintenance of ERP modules, including invoicing, HR, inventory, and more, using Ruby on Rails, JavaScript, and PostgreSQL. Implementation of new features with a focus on system efficiency and usability. Bug fixing and code optimization to improve performance and stability. Development of intuitive interfaces that enhance functionality and user experience. Basic administrative knowledge to better understand business requirements.
+          </div>
+        </div>
+        <div className="indent space-job">
+          <span className="title">FullStack DEV - freelance - Kiwilex</span> - <span className="command">Feb 2024 - Oct 2024</span>
           <div className="indent">
             In my role as a Frontend Developer, I have utilized Angular, jQuery, HTML, CSS, Bootstrap, Chart.js, and Typescript to develop and maintain an educational application for school and university students. Working collaboratively with a team, I have been responsible for implementing new features and ensuring the application's quality and usability. My commitment to delivering high-quality solutions has been demonstrated throughout the project.
           </div>
