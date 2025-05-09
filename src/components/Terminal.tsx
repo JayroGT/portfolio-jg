@@ -388,7 +388,7 @@ function Terminal() {
       <div className="hidden" id="experience">
         <div className="sectionTitle">Experience: </div>
         <div className="indent space-job">
-          <span className="title">FullStack DEV - full time - Kontroller </span> - <span className="command">Oct 2024 - Today</span>
+          <span className="title">FullStack DEV - full time - E-Robot latam </span> - <span className="command">Oct 2024 - Today</span>
           <div className="indent">
             Development and maintenance of ERP modules, including invoicing, HR, inventory, and more, using Ruby on Rails, JavaScript, and PostgreSQL. Implementation of new features with a focus on system efficiency and usability. Bug fixing and code optimization to improve performance and stability. Development of intuitive interfaces that enhance functionality and user experience. Basic administrative knowledge to better understand business requirements.
           </div>
