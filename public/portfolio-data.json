@@ -1,0 +1,149 @@
+{
+  "personalInfo": {
+    "name": "Jayro",
+    "lastName": "Guerrero",
+    "userName": "JayroGT",
+    "title": "Full Stack Developer",
+    "email": "jayro.esp.sg@gmail.com",
+    "github": "https://github.com/jayrogt",
+    "linkedin": "https://www.linkedin.com/in/jayrogt/",
+    "cvFileName": "Jayro_Guerrero_CV.pdf"
+  },
+  "about": {
+    "description": "Hello, my name is Jayro Guerrero. I am a Full Stack Developer with experience in audiovisual communication and customer service, which has provided me with a user-focused approach. I specialize in Front-end development and have solid knowledge of agile methodologies, GIT, data structures, algorithms, and frameworks. I excel in working under pressure, have strong problem-solving skills, and possess excellent communication abilities."
+  },
+  "skills": {
+    "programmingLanguages": [
+      "Javascript",
+      "Typescript", 
+      "Python",
+      "Ruby",
+      "HTML",
+      "CSS"
+    ],
+    "styles": [
+      "Bootstrap",
+      "Tailwind",
+      "Chart.js",
+      "Mui"
+    ],
+    "frontend": [
+      "React",
+      "NextJs",
+      "Angular"
+    ],
+    "backend": [
+      "NodeJs",
+      "ExpressJs",
+      "Django",
+      "Ruby on Rails"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB"
+    ],
+    "languages": [  
+      "Spanish",
+      "English"
+    ]
+  },
+  "education": [
+    {
+      "title": "Full Stack Web Developer",
+      "institution": "Henry Bootcamp",
+      "description": "Completed 800 hours of theoretical and practical coursework in Full Stack Development, covering front-end and back-end technologies including HTML, CSS, JavaScript, React, Node.js, and databases. Gained hands-on experience in building and deploying web applications."
+    },
+    {
+      "title": "Audiovisual Communication Multimedia",
+      "institution": "Toulouse Lautrec",
+      "description": "Academic background in film and marketing, with a specialization in video editing, scriptwriting, production of advertising spots, and branding creation. I acquired skills to develop visual identities and strategic campaigns that effectively connect with the target audience."
+    },
+    {
+      "title": "Business administration",
+      "institution": "CERTUS",
+      "description": "Studies in Administration covering resource management, strategic planning, recruitment analysis, and leadership development. The program includes training in decision-making, process optimization, and techniques to enhance efficiency and productivity in organizational environments."
+    }
+  ],
+  "experience": [
+    {
+      "position": "FullStack DEV",
+      "company": "E-Robot latam",
+      "type": "full time",
+      "period": "Oct 2024 - Today",
+      "description": "Development and maintenance of ERP modules, including invoicing, HR, inventory, and more, using Ruby on Rails, JavaScript, and PostgreSQL. Implementation of new features with a focus on system efficiency and usability. Bug fixing and code optimization to improve performance and stability. Development of intuitive interfaces that enhance functionality and user experience. Basic administrative knowledge to better understand business requirements."
+    },
+    {
+      "position": "FullStack DEV",
+      "company": "Kiwilex",
+      "type": "freelance",
+      "period": "Feb 2024 - Oct 2024",
+      "description": "In my role as a Frontend Developer, I have utilized Angular, jQuery, HTML, CSS, Bootstrap, Chart.js, and Typescript to develop and maintain an educational application for school and university students. Working collaboratively with a team, I have been responsible for implementing new features and ensuring the application's quality and usability. My commitment to delivering high-quality solutions has been demonstrated throughout the project."
+    },
+    {
+      "position": "FullStack DEV",
+      "company": "Attendance control for JAJ 2024",
+      "type": "project",
+      "period": "May 2024 - July 2024",
+      "description": "A web application was developed as a technological solution to manage attendance control and authorization status for each participant in the massive JAJ 2024 event of the Vicaria de Lima. The application encompasses the frontend, backend, and database, utilizing modern technologies to ensure efficiency and reliability. Additionally, it offers an intuitive interface that facilitates the administration and tracking of participants."
+    },
+    {
+      "position": "Support Frontend DEV",
+      "company": "freelancer",
+      "type": "freelance",
+      "period": "Dec 2023 - May 2024",
+      "description": "During my experience as a freelance developer, I have specialized in support and creating components according to client specifications. I have worked on projects using technologies such as React with TypeScript, Tailwind, Bootstrap, and UI libraries, focusing primarily on frontend development. I have been responsible for developing and deploying web applications, ensuring their quality and performance. Additionally, I have demonstrated proactivity and enthusiasm in each project, meeting deadlines and exceeding client expectations. My technical skills and attention to detail have been supported by excellent references from the projects Ive participated in."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Attendance control for JAJ 2024",
+      "status": "Private due to sensitive content",
+      "link": null
+    },
+    {
+      "title": "TodoApp",
+      "status": "public",
+      "link": "https://github.com/JayroGT/apptodo"
+    },
+    {
+      "title": "CountriesApi",
+      "status": "public", 
+      "link": "https://github.com/JayroGT/CountriesAPIJG"
+    }
+  ],
+  "terminalCommands": [
+    {
+      "command": "about",
+      "description": "You will find a brief introduction about me"
+    },
+    {
+      "command": "social",
+      "description": "List of my social media"
+    },
+    {
+      "command": "skills",
+      "description": "The tools I work with"
+    },
+    {
+      "command": "education",
+      "description": "Everything about my education"
+    },
+    {
+      "command": "experience",
+      "description": "Where I've worked so far"
+    },
+    {
+      "command": "projects",
+      "description": "A list of my projects"
+    },
+    {
+      "command": "clear",
+      "description": "Clear the terminal history"
+    },
+    {
+      "command": "cv",
+      "description": "Command to download CV"
+    }
+  ]
+}
