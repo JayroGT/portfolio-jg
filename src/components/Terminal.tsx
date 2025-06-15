@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './Terminal.css';
-import portfolioData from '../../public/portfolio-data.json';
+import portfolioData from '../assets/portfolio-data.json'
 
 function Terminal() {
   const terminalRef = useRef<HTMLDivElement>(null);

@@ -1,0 +1,154 @@
+{
+  "personalInfo": {
+    "name": "Jayro",
+    "lastName": "Guerrero",
+    "userName": "JayroGT",
+    "title": "Desarrollador Full Stack",
+    "email": "jayro.esp.sg@gmail.com",
+    "github": "https://github.com/jayrogt",
+    "linkedin": "https://www.linkedin.com/in/jayrogt/",
+    "cvFileName": "Jayro_Guerrero_CV.pdf"
+  },
+  "about": {
+    "description": "Hola, mi nombre es Jayro Guerrero. Soy un Desarrollador Full Stack con experiencia en comunicación audiovisual y atención al cliente, lo que me ha proporcionado un enfoque centrado en el usuario. Me especializo en desarrollo Front-end y tengo conocimientos sólidos en metodologías ágiles, GIT, estructuras de datos, algoritmos y frameworks. Destaco trabajando bajo presión, tengo fuertes habilidades para resolver problemas y poseo excelentes capacidades de comunicación."
+  },
+  "skills": {
+    "programmingLanguages": [
+      "Javascript",
+      "Typescript", 
+      "Python",
+      "Ruby",
+      "HTML",
+      "CSS"
+    ],
+    "styles": [
+      "Bootstrap",
+      "Tailwind",
+      "Chart.js",
+      "Mui"
+    ],
+    "frontend": [
+      "React",
+      "NextJs",
+      "Angular"
+    ],
+    "backend": [
+      "NodeJs",
+      "ExpressJs",
+      "Django",
+      "Ruby on Rails"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB"
+    ],
+    "languages": [  
+      "Español",
+      "Inglés"
+    ]
+  },
+  "education": [
+    {
+      "title": "Desarrollador Web Full Stack",
+      "institution": "Henry Bootcamp",
+      "description": "Completé 800 horas de coursework teórico y práctico en Desarrollo Full Stack, cubriendo tecnologías front-end y back-end incluyendo HTML, CSS, JavaScript, React, Node.js y bases de datos. Obtuve experiencia práctica en construcción e implementación de aplicaciones web."
+    },
+    {
+      "title": "Comunicación Audiovisual Multimedia",
+      "institution": "Toulouse Lautrec",
+      "description": "Formación académica en cine y marketing, con especialización en edición de video, escritura de guiones, producción de spots publicitarios y creación de branding. Adquirí habilidades para desarrollar identidades visuales y campañas estratégicas que conectan efectivamente con el público objetivo."
+    },
+    {
+      "title": "Administración de Empresas",
+      "institution": "CERTUS",
+      "description": "Estudios en Administración cubriendo gestión de recursos, planificación estratégica, análisis de reclutamiento y desarrollo de liderazgo. El programa incluye entrenamiento en toma de decisiones, optimización de procesos y técnicas para mejorar la eficiencia y productividad en entornos organizacionales."
+    }
+  ],
+  "experience": [
+    {
+      "position": "Desarrollador FullStack",
+      "company": "E-Robot latam",
+      "type": "tiempo completo",
+      "period": "Oct 2024 - Actualidad",
+      "description": "Desarrollo y mantenimiento de módulos ERP, incluyendo facturación, RRHH, inventario y más, usando Ruby on Rails, JavaScript y PostgreSQL. Implementación de nuevas funcionalidades con enfoque en la eficiencia del sistema y usabilidad. Corrección de errores y optimización de código para mejorar rendimiento y estabilidad. Desarrollo de interfaces intuitivas que mejoran la funcionalidad y experiencia del usuario. Conocimientos administrativos básicos para entender mejor los requerimientos del negocio."
+    },
+    {
+      "position": "Desarrollador FullStack",
+      "company": "Kiwilex",
+      "type": "freelance",
+      "period": "Feb 2024 - Oct 2024",
+      "description": "En mi rol como Desarrollador Frontend, he utilizado Angular, jQuery, HTML, CSS, Bootstrap, Chart.js y Typescript para desarrollar y mantener una aplicación educativa para estudiantes de colegio y universidad. Trabajando colaborativamente con un equipo, he sido responsable de implementar nuevas funcionalidades y asegurar la calidad y usabilidad de la aplicación. Mi compromiso de entregar soluciones de alta calidad ha sido demostrado a lo largo del proyecto."
+    },
+    {
+      "position": "Desarrollador FullStack",
+      "company": "Control de asistencia para JAJ 2024",
+      "type": "proyecto",
+      "period": "Mayo 2024 - Julio 2024",
+      "description": "Se desarrolló una aplicación web como solución tecnológica para gestionar el control de asistencia y estado de autorización para cada participante en el evento masivo JAJ 2024 de la Vicaria de Lima. La aplicación abarca el frontend, backend y base de datos, utilizando tecnologías modernas para asegurar eficiencia y confiabilidad. Además, ofrece una interfaz intuitiva que facilita la administración y seguimiento de participantes."
+    },
+    {
+      "position": "Desarrollador Frontend de Soporte",
+      "company": "freelancer",
+      "type": "freelance",
+      "period": "Dic 2023 - Mayo 2024",
+      "description": "Durante mi experiencia como desarrollador freelance, me he especializado en soporte y creación de componentes según las especificaciones del cliente. He trabajado en proyectos usando tecnologías como React con TypeScript, Tailwind, Bootstrap y librerías UI, enfocándome principalmente en desarrollo frontend. He sido responsable de desarrollar e implementar aplicaciones web, asegurando su calidad y rendimiento. Además, he demostrado proactividad y entusiasmo en cada proyecto, cumpliendo plazos y superando las expectativas del cliente. Mis habilidades técnicas y atención al detalle han sido respaldadas por excelentes referencias de los proyectos en los que he participado."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Control de asistencia para JAJ 2024",
+      "status": "Privado debido a contenido sensible",
+      "link": null
+    },
+    {
+      "title": "TodoApp",
+      "status": "público",
+      "link": "https://github.com/JayroGT/apptodo"
+    },
+    {
+      "title": "BlogMailerApp",
+      "status": "público",
+      "link": "https://github.com/JayroGT/blog_post_app"
+    },
+    {
+      "title": "CountriesApi",
+      "status": "público", 
+      "link": "https://github.com/JayroGT/CountriesAPIJG"
+    }
+  ],
+  "terminalCommands": [
+    {
+      "command": "about",
+      "description": "Encontrarás una breve introducción sobre mí"
+    },
+    {
+      "command": "social",
+      "description": "Lista de mis redes sociales"
+    },
+    {
+      "command": "skills",
+      "description": "Las herramientas con las que trabajo"
+    },
+    {
+      "command": "education",
+      "description": "Todo sobre mi educación"
+    },
+    {
+      "command": "experience",
+      "description": "Donde he trabajado hasta ahora"
+    },
+    {
+      "command": "projects",
+      "description": "Una lista de mis proyectos"
+    },
+    {
+      "command": "clear",
+      "description": "Limpiar el historial de la terminal"
+    },
+    {
+      "command": "cv",
+      "description": "Comando para descargar CV"
+    }
+  ]
+}
